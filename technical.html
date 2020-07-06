@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RESUME</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <style>
+    .side {
+      float: left;
+      width: 20%;
+      margin-top: 10px;
+    }
+    .middle {
+      margin-top: 10px;
+      float: left;
+      width: 50%;
+    }
+    .right {
+      margin-left: -50px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .side,
+    .middle {
+      width: 50%;
+    }
+    .right {
+      margin-left: 240px;
+      margin-top: -20px;
+    }
+    .bar-container {
+      width: 50%;
+      margin-left: -160px;
+      margin-top: -38px;
+      background-color: gray;
+      text-align: center;
+      color: white;
+    }
+    .bar-5 {
+      width: 90%;
+      height: 18px;
+      background-color: #2196f3;
+    }
+    .bar-3 {
+      width: 80%;
+      height: 18px;
+      background-color: #2196f3;
+    }
+    ul {
+      list-style-type: none;
+      margin-top: -570px;
+      margin-left: 217px;
+    }
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: white;
+    }
+
+    .active {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <div id="body"></div>
+    <script type="text/babel">
+      const Full = () => (
+        <div
+          className="box"
+          style={{
+            height: "900px",
+            width: "1349px",
+            backgroundColor: "black",
+          }}
+        ></div>
+      );
+      const Header = () => (
+        <div
+          style={{
+            height: "220px",
+            width: "650px",
+            backgroundImage: "linear-gradient(darkviolet,red)",
+            marginTop: "-800px",
+            marginLeft: "87px",
+          }}
+        ></div>
+      );
+      const Body = () => (
+        <div
+          style={{
+            height: "800px",
+            width: "1170px",
+            backgroundImage: "linear-gradient(blue,skyblue,darkblue,violet)",
+            marginLeft: "87px",
+            marginTop: "-850px",
+          }}
+        ></div>
+      );
+      const Footer = () => (
+        <div
+          style={{
+            height: "600px",
+            width: "990px",
+            backgroundColor: "white",
+            marginLeft: "180px",
+            marginTop: "50px",
+            border: "1px solid black",
+          }}
+        ></div>
+      );
+      const App = () => {
+        return (
+          <div>
+            <Full />
+            <Body />
+            <Header />
+            <img
+              style={{
+                marginLeft: "200px",
+                marginTop: "-320px",
+                width: "100px",
+                height: "100px",
+                border: "2px solid white",
+              }}
+              src="dharani.jpeg"
+            />
+            <h4
+              style={{
+                marginLeft: "420px",
+                marginTop: "-200px",
+                color: "white",
+                fontFamily: "Sans-serif",
+                fontWeight: "bold",
+                fontSize: "60px",
+              }}
+            >
+              A. DHARANEESWARI{" "}
+            </h4>
+            <Footer />
+            <ul>
+              <li>
+                <a class="active" href="portfolio.html">
+                  ABOUT ME
+                </a>
+              </li>
+              <li>
+                <a class="active" href="contact.html">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a class="active" href="education.html">
+                  EDUCATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="technical.html">
+                  TECHNICAL SKILLS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="certificate.html">
+                  CERTIFICATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="activity.html">
+                  ACTIVITIES
+                </a>
+              </li>
+            </ul>
+            <p
+              style={{
+                marginTop: "-30px",
+                marginLeft: "-10px",
+                fontSize: "15px",
+                fontWeight: "bold",
+              }}
+            >
+              <h1
+                style={{
+                  color: "rgba(3, 138, 201, 0.952)",
+                  marginLeft: "540px",
+                  marginTop: "110px",
+                  fontSize: "30px",
+                  fontFamily: "Sans-serif",
+                  fontWeight: "bold",
+                }}
+              >
+                TECHNICAL SKILLS :
+              </h1>
+              <hr
+                style={{
+                  width: "750px",
+                  marginLeft: "310px",
+                  marginTop: "15px",
+                  borderTop: "1px solid grey",
+                }}
+              ></hr>
+              <img
+                src="cprogram.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "400px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <div class="row">
+                <div class="side">
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      marginLeft: "970px",
+                      marginTop: "-35px",
+                    }}
+                  >
+                    90
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="c++.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "400px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <div class="row">
+                <div class="side">
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      marginLeft: "970px",
+                      marginTop: "-35px",
+                    }}
+                  >
+                    90
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="python.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "400px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <div class="row">
+                <div class="side">
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      marginLeft: "970px",
+                      marginTop: "-35px",
+                    }}
+                  >
+                    90
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="css.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "380px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <img
+                src="html5.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "1px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <div class="row">
+                <div class="side">
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      marginLeft: "970px",
+                      marginTop: "-35px",
+                    }}
+                  >
+                    90
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="js.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "400px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <div class="row">
+                <div class="side">
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      marginLeft: "970px",
+                      marginTop: "-35px",
+                    }}
+                  >
+                    90
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-5"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="node.png"
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "400px",
+                  height: "40px",
+                  width: "40px",
+                }}
+              />
+              <div class="row">
+                <div class="side">
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      marginLeft: "970px",
+                      marginTop: "-35px",
+                    }}
+                  >
+                    80
+                  </div>
+                </div>
+                <div class="middle">
+                  <div class="bar-container">
+                    <div class="bar-3"></div>
+                  </div>
+                </div>
+              </div>
+            </p>
+          </div>
+        );
+      };
+      ReactDOM.render(<App />, document.getElementById("body"));
+    </script>
+  </body>
+</html>
