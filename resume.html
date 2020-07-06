@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RESUME</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin-top: -570px;
+      margin-left: 217px;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: white;
+    }
+
+    .active {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <div id="body"></div>
+    <script type="text/babel">
+      const Full = () => (
+        <div
+          className="box"
+          style={{
+            height: "900px",
+            width: "1349px",
+            backgroundColor: "black",
+          }}
+        ></div>
+      );
+      const Header = () => (
+        <div
+          style={{
+            height: "220px",
+            width: "650px",
+            backgroundImage: "linear-gradient(darkviolet,red)",
+            marginTop: "-800px",
+            marginLeft: "87px",
+          }}
+        ></div>
+      );
+      const Body = () => (
+        <div
+          style={{
+            height: "800px",
+            width: "1170px",
+            backgroundImage: "linear-gradient(blue,skyblue,darkblue,violet)",
+            marginLeft: "87px",
+            marginTop: "-850px",
+          }}
+        ></div>
+      );
+      const Footer = () => (
+        <div
+          style={{
+            height: "600px",
+            width: "990px",
+            backgroundColor: "white",
+            marginLeft: "180px",
+            marginTop: "-130px",
+            border: "1px solid black",
+          }}
+        ></div>
+      );
+      const App = () => {
+        return (
+          <div>
+            <Full />
+            <Body />
+            <Header />
+            <Footer />
+            <ul>
+              <li>
+                <a class="active" href="portfolio.html">
+                  ABOUT ME
+                </a>
+              </li>
+              <li>
+                <a class="active" href="contact.html">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a class="active" href="education.html">
+                  EDUCATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="technical.html">
+                  TECHNICAL SKILLS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="certificate.html">
+                  CERTIFICATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="activity.html">
+                  ACTIVITIES
+                </a>
+              </li>
+            </ul>
+            <img
+              style={{
+                marginLeft: "600px",
+                marginTop: "90px",
+                width: "200px",
+                height: "200px",
+                border: "2px solid black",
+              }}
+              src="dharani.jpeg"
+            />
+            <h4
+              style={{
+                marginLeft: "380px",
+                marginTop: "90px",
+                color: "black",
+                fontFamily: "Sans-serif",
+                fontWeight: "bold",
+                fontSize: "60px",
+              }}
+            >
+              A. DHARANEESWARI{" "}
+            </h4>
+          </div>
+        );
+      };
+      ReactDOM.render(<App />, document.getElementById("body"));
+    </script>
+  </body>
+</html>
