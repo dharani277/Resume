@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RESUME</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin-top: -570px;
+      margin-left: 217px;
+    }
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: white;
+    }
+
+    .active {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <div id="body"></div>
+    <script type="text/babel">
+      const Full = () => (
+        <div
+          className="box"
+          style={{
+            height: "900px",
+            width: "1349px",
+            backgroundColor: "black",
+          }}
+        ></div>
+      );
+      const Header = () => (
+        <div
+          style={{
+            height: "220px",
+            width: "650px",
+            backgroundImage: "linear-gradient(darkviolet,red)",
+            marginTop: "-800px",
+            marginLeft: "87px",
+          }}
+        ></div>
+      );
+      const Body = () => (
+        <div
+          style={{
+            height: "800px",
+            width: "1170px",
+            backgroundImage: "linear-gradient(blue,skyblue,darkblue,violet)",
+            marginLeft: "87px",
+            marginTop: "-850px",
+          }}
+        ></div>
+      );
+      const Footer = () => (
+        <div
+          style={{
+            height: "600px",
+            width: "990px",
+            backgroundColor: "white",
+            marginLeft: "180px",
+            marginTop: "50px",
+            border: "1px solid black",
+          }}
+        ></div>
+      );
+      const App = () => {
+        return (
+          <div>
+            <Full />
+            <Body />
+            <Header />
+            <img
+              style={{
+                marginLeft: "200px",
+                marginTop: "-320px",
+                width: "100px",
+                height: "100px",
+                border: "2px solid white",
+              }}
+              src="dharani.jpeg"
+            />
+            <h4
+              style={{
+                marginLeft: "420px",
+                marginTop: "-200px",
+                color: "white",
+                fontFamily: "Sans-serif",
+                fontWeight: "bold",
+                fontSize: "60px",
+              }}
+            >
+              A. DHARANEESWARI{" "}
+            </h4>
+            <Footer />
+            <ul>
+              <li>
+                <a class="active" href="portfolio.html">
+                  ABOUT ME
+                </a>
+              </li>
+              <li>
+                <a class="active" href="contact.html">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a class="active" href="education.html">
+                  EDUCATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="technical.html">
+                  TECHNICAL SKILLS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="certificate.html">
+                  CERTIFICATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="activity.html">
+                  ACTIVITIES
+                </a>
+              </li>
+            </ul>
+            <p
+              style={{
+                marginTop: "-30px",
+                marginLeft: "-10px",
+                fontSize: "15px",
+                fontWeight: "bold",
+              }}
+            >
+              <h1
+                style={{
+                  color: "rgba(3, 138, 201, 0.952)",
+                  marginLeft: "600px",
+                  marginTop: "110px",
+                  fontSize: "30px",
+                  fontFamily: "Sans-serif",
+                  fontWeight: "bold",
+                }}
+              >
+                CONTACT :
+              </h1>
+              <hr
+                style={{
+                  width: "750px",
+                  marginLeft: "310px",
+                  marginTop: "15px",
+                  borderTop: "1px solid grey",
+                }}
+              ></hr>
+              <a href="https://www.linkedin.com/in/dharani-annamalai-794827178">
+                <img
+                  src="linkedin.png"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "450px",
+                    height: "45px",
+                    width: "45px",
+                  }}
+                />
+              </a>
+              <a href="https://twitter.com/DHARANI41726578">
+                <img
+                  src="twitter.png"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "80px",
+                    height: "40px",
+                    width: "40px",
+                  }}
+                />
+              </a>
+              <a href="https://github.com/dharani277">
+                <img
+                  src="github.png"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "105px",
+                    height: "47px",
+                    width: "47px",
+                  }}
+                />
+              </a>
+              <a href="https://www.instagram.com/dharani_annamalai/">
+                <img
+                  src="insta.png"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "120px",
+                    height: "40px",
+                    width: "40px",
+                  }}
+                />
+              </a>
+              <a href="https://join.skype.com/invite/XTT6HhcKTiNL">
+                <img
+                  src="skype.png"
+                  style={{
+                    marginTop: "200px",
+                    marginLeft: "-410px",
+                    height: "40px",
+                    width: "40px",
+                  }}
+                />
+              </a>
+              <a href="https://www.facebook.com/dharani27799/">
+                <img
+                  src="facebook.png"
+                  style={{
+                    marginTop: "200px",
+                    marginLeft: "99px",
+                    height: "40px",
+                    width: "40px",
+                  }}
+                />
+              </a>
+              <a href="https://medium.com/@dharneshwarij9490">
+                <img
+                  src="medium.png"
+                  style={{
+                    marginTop: "200px",
+                    marginLeft: "113px",
+                    height: "40px",
+                    width: "40px",
+                  }}
+                />
+              </a>
+            </p>
+          </div>
+        );
+      };
+      ReactDOM.render(<App />, document.getElementById("body"));
+    </script>
+  </body>
+</html>
