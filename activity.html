@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RESUME</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin-top: -570px;
+      margin-left: 217px;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: white;
+    }
+
+    .active {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <div id="body"></div>
+    <script type="text/babel">
+      const Full = () => (
+        <div
+          className="box"
+          style={{
+            height: "900px",
+            width: "1349px",
+            backgroundColor: "black",
+          }}
+        ></div>
+      );
+      const Header = () => (
+        <div
+          style={{
+            height: "220px",
+            width: "650px",
+            backgroundImage: "linear-gradient(darkviolet,red)",
+            marginTop: "-800px",
+            marginLeft: "87px",
+          }}
+        ></div>
+      );
+      const Body = () => (
+        <div
+          style={{
+            height: "800px",
+            width: "1170px",
+            backgroundImage: "linear-gradient(blue,skyblue,darkblue,violet)",
+            marginLeft: "87px",
+            marginTop: "-850px",
+          }}
+        ></div>
+      );
+      const Footer = () => (
+        <div
+          style={{
+            height: "600px",
+            width: "990px",
+            backgroundColor: "white",
+            marginLeft: "180px",
+            marginTop: "50px",
+            border: "1px solid black",
+          }}
+        ></div>
+      );
+      const App = () => {
+        return (
+          <div>
+            <Full />
+            <Body />
+            <Header />
+            <img
+              style={{
+                marginLeft: "200px",
+                marginTop: "-320px",
+                width: "100px",
+                height: "100px",
+                border: "2px solid white",
+              }}
+              src="dharani.jpeg"
+            />
+            <h4
+              style={{
+                marginLeft: "420px",
+                marginTop: "-200px",
+                color: "white",
+                fontFamily: "Sans-serif",
+                fontWeight: "bold",
+                fontSize: "60px",
+              }}
+            >
+              A. DHARANEESWARI{" "}
+            </h4>
+            <Footer />
+            <ul>
+              <li>
+                <a class="active" href="portfolio.html">
+                  ABOUT ME
+                </a>
+              </li>
+              <li>
+                <a class="active" href="contact.html">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a class="active" href="education.html">
+                  EDUCATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="technical.html">
+                  TECHNICAL SKILLS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="certificate.html">
+                  CERTIFICATIONS
+                </a>
+              </li>
+              <li>
+                <a class="active" href="activity.html">
+                  ACTIVITIES
+                </a>
+              </li>
+            </ul>
+            <h1
+              style={{
+                color: "rgba(3, 138, 201, 0.952)",
+                marginLeft: "480px",
+                marginTop: "130px",
+                fontSize: "30px",
+                fontFamily: "Sans-serif",
+                fontWeight: "bold",
+              }}
+            >
+              CO CURRICULAR ACTIVITIES :
+            </h1>
+            <hr
+              style={{
+                width: "840px",
+                marginLeft: "255px",
+                marginTop: "15px",
+                borderTop: "1px solid grey",
+              }}
+            ></hr>
+            <img
+              src="co.png"
+              style={{
+                marginTop: "53px",
+                marginLeft: "230px",
+                height: "150px",
+                width: "150px",
+              }}
+            />
+            <ul>
+              <li
+                style={{
+                  marginLeft: "-700px",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  marginTop: "200px",
+                }}
+              >
+                Participated in Technical{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>QUIZ</b> contest{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>OZMENTA 2K19 </b> at
+                VEC Chennai
+              </li>
+              <li
+                style={{
+                  marginLeft: "-700px",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  marginTop: "250px",
+                }}
+              >
+                Participated in{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>Paper Presentation</b>{" "}
+                Contest <b style={{ color: "rgb(240, 10, 10)" }}>VISION 19</b>{" "}
+                at College of Engineering, Guindy
+              </li>
+              <li
+                style={{
+                  marginLeft: "-700px",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  marginTop: "300px",
+                }}
+              >
+                Participated in{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>Project</b> Contest{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>MINIATURE 2018</b> at
+                SMVEC Puducherry
+              </li>
+              <li
+                style={{
+                  marginLeft: "-700px",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  marginTop: "350px",
+                }}
+              >
+                Participated in a{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>
+                  technical event CONNECTION
+                </b>{" "}
+                and <b style={{ color: "rgb(240, 10, 10)" }}>ADZAP</b> contest{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>OZMENTA 2K19</b> at VEC
+                <br></br> Chennai
+              </li>
+              <li
+                style={{
+                  marginLeft: "-700px",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  marginTop: "400px",
+                }}
+              >
+                Attend a workshop on{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>
+                  INDUSTRIAL AUTOMATION
+                </b>{" "}
+                at Design Destination Institute, Puducherry
+              </li>
+              <li
+                style={{
+                  marginLeft: "-700px",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                  marginTop: "450px",
+                }}
+              >
+                Attended{" "}
+                <b style={{ color: "rgb(240, 10, 10)" }}>Inplant Training</b> on
+                Industrial Automation Products and Services at Cornerstone
+                <br></br> Engineering Solution
+              </li>
+            </ul>
+          </div>
+        );
+      };
+      ReactDOM.render(<App />, document.getElementById("body"));
+    </script>
+  </body>
+</html>
