@@ -33,14 +33,13 @@
       margin-top: -570px;
       margin-left: 217px;
     }
-
     li {
       float: left;
     }
 
     li a {
       display: block;
-      color: white;
+      color: black;
       font-size: 15px;
       font-weight: bold;
       text-align: center;
@@ -53,7 +52,7 @@
     }
 
     .active {
-      background-color: blue;
+      background-color: rgb(219, 215, 215);
     }
   </style>
   <body>
@@ -97,6 +96,7 @@
             height: "600px",
             width: "990px",
             backgroundColor: "white",
+            backgroundImage: "url(photo.jpg)",
             marginLeft: "180px",
             marginTop: "-130px",
             border: "1px solid black",
@@ -145,17 +145,33 @@
             <img
               style={{
                 marginLeft: "600px",
-                marginTop: "90px",
+                marginTop: "-300px",
                 width: "200px",
                 height: "200px",
                 border: "2px solid black",
               }}
-              src="dharani.jpeg"
+              src="photo.jpg"
             />
+            <button
+              style={{
+                marginLeft: "-200px",
+                marginTop: "300px",
+                backgroundColor: "lightgray",
+                width: "200px",
+                height: "40px",
+                fontSize: "15px",
+                fontWeight: "bold",
+                borderRadius: "10px",
+              }}
+            >
+              <a style={{ color: "blue" }} href="resume.html">
+                VIEW RESUME
+              </a>
+            </button>
             <h4
               style={{
                 marginLeft: "380px",
-                marginTop: "90px",
+                marginTop: "40px",
                 color: "black",
                 fontFamily: "Sans-serif",
                 fontWeight: "bold",
